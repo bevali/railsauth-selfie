@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   get 'home/index'
 
-  post 'api/signup' =>  'api#signup'
-  post 'api/signin' =>  'api#signin'
+  post 'api/signup'
+  post 'api/signin'
   post 'api/reset_password'
 
   post 'api/upload_photo'
